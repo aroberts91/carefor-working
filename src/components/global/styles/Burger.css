@@ -1,0 +1,52 @@
+#hamburger-icon {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+}
+
+#hamburger-icon .line {
+	display: block;
+	width: 100px;
+	height: 8px;
+	position: absolute;
+	left: 0;
+	border-radius: 4px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+#hamburger-icon .line.line-1 {
+	top: 0;
+}
+
+#hamburger-icon .line.line-2 {
+	top: 50%;
+}
+
+#hamburger-icon .line.line-3 {
+	top: 100%;
+}
+
+#hamburger-icon:hover .line-1 {
+	transform: translateY(-4px);
+	-webkit-transform: translateY(-4px);
+	-moz-transform: translateY(-4px);
+}
+#hamburger-icon:hover .line-3 {
+	transform: translateY(4px);
+	-webkit-transform: translateY(4px);
+	-moz-transform: translateY(4px);
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
